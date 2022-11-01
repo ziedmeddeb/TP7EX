@@ -12,7 +12,7 @@ export class EmployeService {
   }
 
   addNewEmploye(emp: Employe) {   
-    this.lesEmployes.push();
+    this.lesEmployes.push(emp);
   }
   constructor() { }
 }
